@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Isabelle Ruivo">
+		<meta name="description" content="WebPage com colunas, referente aos filmes de romance e suas respectivas sinopses.">
+		<meta name="keywords" content="romance, filmes, cinema">
+        <meta name="theme-color" content="#999999">
+		<title>Filmes de Romance</title>
+        <link rel="icon" href="./img/cinema.gif">
+        <style>
+            @font-face{
+                font-family: KGEyesWide;
+                src: url(./fonts/KGEyesWideOpen.ttf);
+            }
+            @font-face{
+                font-family: Orkney;
+                src: url(./fonts/Orkney\ Regular.ttf);
+            }
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .texto {
+                text-align: justify;
+                column-rule: 1px solid #000;
+                column-gap: 35px;
+                position: relative;
+                padding-top: 0;
+                font-family: Orkney;
+                font-size: 18px;
+            }
+            .recuo{
+                text-indent: 10px;
+            }
+            body{
+                background-color: rgb(173, 201, 255);
+            }
+            header{
+                height: 130px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            header h1{
+                font-family: "KGEyesWide";
+                font-size: 3rem;
+                font-weight: 900;
+                color: #000;
+            }
+            .img{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                gap: 2vw;
+                padding: 0 2vw;
+            }
+            .itensgaleria{
+                width: 340px;
+                height: 600px;
+                border: 10px solid #FFF;
+                box-shadow: 5px 5px 5px #0006;
+                flex-grow: 1;
+                animation: neon 3s alternate infinite ease-in-out;
+	            color: rgb(102, 117, 250);
+            }
+            @keyframes neon {
+                from {
+                    filter: drop-shadow(0 0 0 );
+                }
+                to{
+                    filter: drop-shadow(0 0 40px);
+                }
+            }
+            .itensgaleria img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            main{
+                column-count: 3;
+                column-gap: 10px;
+                column-rule: 1px solid rgb(80, 80, 80);
+            }
+            hr{
+                height: 1px;
+                background-color: rgb(80, 80, 80);
+                border: none; 
+            }
+            footer{
+                text-align: center;
+                font-family: "Orkney";
+                color: rgb(0, 30, 130);
+                position: static;
+                bottom: 0;
+                width: 100%;
+                height: 130px;
+                text-align: center;
+                line-height: 100px;
+                font-size: 17px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+	</head>
+	<body>
+        <header>
+            <h1>Filmes de Romance - Sinopses</h1>
+        </header>
+        <main>
+            <section class="img">
+                <section class="itensgaleria">
+                    <img src="./img/500days.jpg" alt="500 Days of Summer">
+                </section>
+                <section class="texto">
+                    <p class="recuo">
+                        Tom Hansen (Joseph Gordon-Levitt) está em uma reunião com seu chefe, Vance (Clark Gregg), quando ele apresenta sua nova assistente, Summer Finn (Zooey Deschanel). 
+                        Tom logo fica impressionado com sua beleza, o que faz com que tente, nas duas semanas seguintes, realizar algum tipo de contato. 
+                    </p>
+                    <p class="recuo">
+                        Sua grande chance surge quando seu melhor amigo o convida a ir em um karaokê, onde os colegas de trabalho costumam ir. 
+                        Lá Tom encontra Summer.
+                    </p>
+                    <p class="recuo">
+                        Eles também cantam e conversam sobre o amor, dando início a um relacionamento.
+                    </p>
+                    <br><hr>
+                </section>
+                <section class="itensgaleria">
+                    <img src="./img/aboutime.jpg" alt="About Time">
+                </section>
+                <section class="texto">
+                    <p class="recuo">
+                        Ao completar 21 anos, Tim (Domhnall Gleeson) é surpreendido com a notícia dada por seu pai (Bill Nighy) de que pertence a uma linhagem de viajantes no tempo. 
+                        Ou seja, todos os homens da família conseguem viajar para o passado, bastando apenas ir para um local escuro e pensar na época e no local para onde deseja ir. 
+                    </p>
+                    <p class="recuo">
+                        Cético a princípio, Tim logo se empolga com o dom ao ver que seu pai não está mentindo. 
+                        Sua primeira decisão é usar esta capacidade para conseguir uma namorada, mas logo ele percebe que viajar no tempo e alterar o que já aconteceu pode provocar consequências inesperadas.
+                    </p>
+                    <br><hr>
+                </section>
+                <section class="itensgaleria">
+                    <img src="./img/allthebrightplaces.jpg" alt="All the Bright Places">
+                </section>
+                <section class="texto">
+                    <p class="recuo">
+                        Dois adolescentes que estão passando por momentos difíceis criam um forte laço quando embarcam em uma jornada transformadora para visitar as maravilhas do estado de Indiana, nos Estados Unidos.
+                    </p>
+                    <br><hr>
+                </section>
+                <section class="itensgaleria">
+                    <img src="./img/edwardscissorhands.jpg" alt="Edward Scissorhands">
+                </section>
+                <section class="texto">
+                    <p class="recuo">
+                        Peg Boggs é uma vendedora que acidentalmente descobre Edward, jovem que mora sozinho em um castelo no topo de uma montanha, criado por um inventor que morreu antes de dar mãos ao estranho ser, que possui apenas enormes lâminas no lugar delas. 
+                    </p>
+                    <p class="recuo">
+                        Isto o impede de poder se aproximar dos humanos, a não ser para criar revolucionários cortes de cabelos. 
+                    </p>
+                    <p class="recuo">
+                        No entanto, Edward é vítima da sua inocência e, se é amado por uns, é perseguido e usado por outros.
+                    </p>
+                    <br>
+                </section>
+                <section class="itensgaleria">
+                    <img src="./img/eternalsunshine.jpg" alt="Eternal Sunshine of the Spotless Mind">
+                </section>
+                <section class="texto">
+                    <p class="recuo">
+                        Joel (Jim Carrey) e Clementine (Kate Winslet) formavam um casal que durante anos tentaram fazer com que o relacionamento desse certo. 
+                    </p>
+                    <p class="recuo">
+                        Desiludida com o fracasso, Clementine decide esquecer Joel para sempre e, para tanto, aceita se submeter a um tratamento experimental, que retira de sua memória os momentos vividos com ele.
+                    </p>
+                    <p class="recuo">
+                        Após saber de sua atitude Joel entra em depressão, frustrado por ainda estar apaixonado por alguém que quer esquecê-lo. 
+                    </p>
+                    <p class="recuo">
+                        Decidido a superar a questão, Joel também se submete ao tratamento experimental. 
+                        Porém ele acaba desistindo de tentar esquecê-la e começa a encaixar Clementine em momentos de sua memória os quais ela não participa.
+                    </p>
+                    <br><hr>
+                    </section>
+                <section class="itensgaleria">
+                    <img src="./img/twilight.jpg" alt="New Moon">
+                </section>
+                <section class="texto">
+                    <p class="recuo">
+                        A estudante Bella Swan conhece Edward Cullen, um belo mas misterioso adolescente.
+                    </p> 
+                    <p class="recuo">
+                        Edward é um vampiro, cuja família não bebe sangue, e Bella, longe de ficar assustada, se envolve em um romance perigoso com sua alma gêmea imortal.
+                    </p>
+                    <br><hr>
+                </section>
+                <section class="itensgaleria">
+                    <img src="./img/theageofadaline.jpg" alt="The Age of Adaline">
+                </section>
+                <section class="texto">
+                    <p class="recuo">
+                        Adaline Bowman nasceu na virada do século 20 e levava uma vida normal até sofrer um grave acidente de carro. 
+                    </p>
+                    <p class="recuo">
+                        Desde então, ela milagrosamente parou de envelhecer e acabou se tornando um ser imortal com eterna aparência de 29 anos. 
+                    </p>
+                    <p class="recuo">
+                        Adaline vive uma existência solitária, nunca se permitindo criar laços com ninguém para não ter seu segredo revelado.
+                        Mas tudo muda quando ela conhece o jovem e belo Ellis Jones, um filantropo por quem pode valer a pena arriscar sua imortalidade.
+                    </p>
+                    <br><hr>
+                    </section>
+                <section class="itensgaleria">
+                    <img src="./img/thechoice.jpg" alt="The Choice">
+                </section>
+                <section class="texto">
+                    <p class="recuo">
+                        Travis Parker (Benjamin Walker) tem uma vida confortável, um bom emprego, amigos leais e uma casa em pequena cidade costeira. 
+                        Ele busca diariamente viver plenamente e acredita que um relacionamento sério limitaria o seu estilo de vida. 
+                        Isso até que Gabby Holland (Teresa Palmer) se muda para a casa ao lado. 
+                    </p>
+                    <p class="recuo">
+                        Mesmo que ela tenha um namorado, a moça o instiga logo de cara e faz com que os dois se entreguem a uma relação que nenhum deles esperava. 
+                        Baseado em romance do autor Nicholas Sparks.
+                    </p>
+                    <br>
+                </section>
+                <section class="itensgaleria">
+                    <img src="./img/thenotebook.jpg" alt="The Notebook">
+                </section>
+                <section class="texto">
+                    <p class="recuo">
+                        Na década de 40, na Carolina do Sul, o operário Noah Calhoun e a rica Allie se apaixonam desesperadamente, mas os pais da jovem não aprovam o namoro. 
+                    </p>
+                    <p class="recuo">
+                        Noah então é enviado para combater na Segunda Guerra Mundial, e parece ser o fim do romance. Enquanto isso, Allie se envolve com outro homem. No entanto, se torna claro que a paixão deles ainda não acabou quando Noah retorna para a pequena cidade anos mais tarde, próximo ao casamento de Allie.
+                    </p>
+                    <br><hr>
+                </section>
+                <section class="itensgaleria">
+                    <img src="./img/thetimetravelerswife.jpg" alt="The Time Traveler's Wife">
+                </section>
+                <section class="texto">
+                    <p class="recuo">
+                        Henry DeTamble (Eric Bana) conheceu Clare Abshire (Rachel McAdams) quando tinha apenas 6 anos, em um campo perto da casa de seus pais. 
+                        Logo eles se tornaram grandes amigos, avançando para confidentes e depois amantes. 
+                        Só que há um problema: o futuro de Clare é o passado de Henry. 
+                    </p>
+                    <p class="recuo">
+                        Ele é um viajante do tempo, devido a uma modificação genética rara que o faz levar a vida sem saber em que época estará. 
+                    </p>
+                    <p class="recuo">
+                        O fato de Henry conhecer o futuro sempre incomodou Clare, mas agora a situação se inverteu. 
+                    </p>
+                    <p class="recuo">
+                        Quando Henry volta no tempo para encontrar Clare aos 6 anos, é ela que, em sua fase adulta, sabe qual será o futuro de seu amado.
+                    </p>
+                    <br><hr>
+                </section>
+                <section class="itensgaleria">
+                    <img src="./img/oneday.jpg" alt="One Day">
+                </section>
+                <section class="texto">
+                    <p class="recuo">
+                        Emma Morley e Dexter Mayhew sentem uma conexão especial desde o dia em que se conheceram. 
+                    </p>
+                    <p class="recuo">
+                        Apesar de seguirem rumos diferentes, eles acabam se reencontrando todos os anos no dia 15 de julho.
+                        Nesse período, Emma enfrenta dificuldades para ser bem sucedida na carreira, enquanto Dexter consegue sucesso fácil, tanto no trabalho quanto com as mulheres. 
+                    </p>
+                    <p class="recuo">
+                        Mesmo passando por diversas pessoas, a vida de ambos continua sempre, de alguma forma, interligada.
+                    </p>
+                    <br><hr>
+                </section>
+                <section class="itensgaleria">
+                    <img src="./img/mebeforeyou.jpg" alt="Me Before You">
+                </section>
+                <section class="texto">
+                    <p class="recuo">
+                        Em Como Eu Era Antes de Você, o rico e bem sucedido Will (Sam Claflin) leva uma vida repleta de conquistas, viagens e esportes radicais até ser atingido por uma moto. 
+                    </p>
+                    <p class="recuo">
+                        O acidente o torna tetraplégico, obrigando-o a permanecer em uma cadeira de rodas. 
+                        A situação o torna depressivo e extremamente cínico, para a preocupação de seus pais (Janet McTeer e Charles Dance). 
+                        É neste contexto que Louisa Clark (Emilia Clarke) é contratada para cuidar de Will. 
+                    </p>
+                    <p class="recuo">
+                        De origem modesta, com dificuldades financeiras e sem grandes aspirações na vida, ela faz o possível para melhorar o estado de espírito de Will e, aos poucos, acaba se envolvendo com ele.
+                    </p>
+                    <br><br>
+                </section>
+            </section>
+        </main>
+        <footer>
+            Copyright © 2022 - Isabelle Ruivo
+        </footer>
+	</body>
+</html>
